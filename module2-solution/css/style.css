@@ -1,6 +1,35 @@
+*{
+	box-sizing: border-box;
+}
 /*Simple responsive Framework*/
 .row{
 	width: 100%;
+}
+div{
+	background-color: gray;
+}
+.section{
+	text-align: right;
+	position: relative;
+	border: 1px solid black;
+}
+.chicken{
+	background-color: pink;
+	
+}
+.beef{
+	background-color: brown;
+	
+}
+.sushi{
+	background-color: orange;
+	
+}
+p{
+	background-color: gray;
+	font-family: Helvetica;
+	color: white;
+	text-align: left;
 }
 /* Large devices Only*/
 @media(min-width: 992px){
@@ -20,19 +49,19 @@
 	}
 /*Medium devices only*/
 @media(min-width:768px) and (max-width:991px){
-	.col-md-1, .col-md-2, .col-md-3{
+	.col-md-1, .col-md-2,{
 			float: left;
 			border: 1px solid green;
 		}
 		.col-md-1{
 			width: 50%;
 		}
+		.col-md-1-2{
+			width: 50%;
+		}
 		.col-md-2{
 			width: 100%;
-		}
-		.col-md-3{
-			width: 100%;
-		}
+		}		
 	}
 @media(max-width:767px){
 
